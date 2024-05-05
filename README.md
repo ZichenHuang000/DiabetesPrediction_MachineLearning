@@ -22,23 +22,36 @@ This dataset comes from the National Institute of Diabetes and Digestive and Kid
 
 Variables include:
 Pregnancies: Number of times pregnant
+
 Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
+
 Blood Pressure: Diastolic blood pressure (mm Hg)
+
 Skin Thickness: Triceps skinfold thickness (mm)
+
 Insulin: 2-Hour serum insulin (mu U/ml)
+
 BMI: Body mass index (weight in kg/(height in m)^2).
+
 Diabetes Pedigree Function: Diabetes pedigree function (a function which scores likelihood of diabetes based on family history).
+
 Age: Age (years).
+
 Outcome: Class variable (0 or 1) where 1 indicates diabetes and 0 indicates no diabetes. ​
+
 
 ## Data Cleaning
 The dataset contains 768 entries and 9 columns.
 We split the data into 80% train data and 20% test data. 
 
 Model Selection: Range of models to be executed: OLS, Ridge, Lasso, PCR, PLS, Decision Trees, Random Forest, and Boosting.
+
 Parameter Tuning: For regularization models: optimizing alpha and the l1_ratio for Lasso and Elastic Net. For tree-based models: tuning parameters such as max depth, min samples split, and min samples leaf. 
+
 Computing Environment: Experiments will be conducted on Google Colab using stacks like scikit-learn, pandas, NumPy
+
 Evaluation Metrics: Accuracy of the model(%）.
+
 
 Challenge:Missing Data. From an initial inspection, it appeared there might be some zero values in columns where it doesn't make sense (like Glucose, Blood Pressure, Skin Thickness, Insulin, BMI)
 Solution:We replace these zeros with the column's mean, excluding zeros from the calculation.
