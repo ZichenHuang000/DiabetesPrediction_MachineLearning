@@ -18,7 +18,7 @@ Boosting
 Previous studies often apply a one-size-fits-all model for all age groups. Our research expands on this by segmenting data based on age groups to enhance prediction accuracy.
 
 ## Data Description
-This dataset comes from the National Institute of Diabetes and Digestive and Kidney Diseases. Its purpose is to predict the presence of diabetes in patients using specific diagnostic data included in the dataset. The dataset was curated with certain restrictions, including that all the subjects are female Pima Indians aged 21 or older.
+This dataset comes from the National Institute of Diabetes and Digestive and Kidney Diseases.(https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database) Its purpose is to predict the presence of diabetes in patients using specific diagnostic data included in the dataset. The dataset was curated with certain restrictions, including that all the subjects are female Pima Indians aged 21 or older.
 
 Variables include:
 Pregnancies: Number of times pregnant
